@@ -6,6 +6,6 @@ def my_each(array)
   yield
 end
 
-my_each(array) do |i|
+my_each(words) do |i|
   puts i
 end
