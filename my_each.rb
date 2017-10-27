@@ -3,7 +3,7 @@ def my_each(array)
 
   # end
   new_array = []
-  yield
+  yield(n)
 end
 
 my_each(n) do |i|
