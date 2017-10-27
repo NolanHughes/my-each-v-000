@@ -1,5 +1,5 @@
 def my_each(array)
-  while array.length > 0
-    "hello"
-  end
+  # while array.length > 0
+  #   "hello"
+  # end
 end
