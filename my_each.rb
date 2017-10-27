@@ -7,5 +7,5 @@ def my_each(array)
 end
 
 my_each() do |i|
-
+  new_array << i
 end
