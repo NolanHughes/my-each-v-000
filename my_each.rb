@@ -3,9 +3,6 @@ def my_each(array)
 
   # end
   new_array = []
-  yield(array)
+  yield
 end
 
-my_each(array) do |i|
-  new_array << i
-end
