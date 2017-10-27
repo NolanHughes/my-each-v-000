@@ -6,6 +6,6 @@ def my_each(array)
   yield(array)
 end
 
-my_each(n) do |i|
+my_each(array) do |i|
   new_array << i
 end
