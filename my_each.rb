@@ -1,11 +1,12 @@
 def my_each(array)
-  new_ary = []
-  self.each do |elem|
-    new_ary << yield(elem)
-  end
-  new_ary
+  # while
+
+  # end
+
+  yield
 end
 
 # my_each(array) do |i|
 
 # end
+
